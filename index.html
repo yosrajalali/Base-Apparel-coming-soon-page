@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="Stay up-to-date with Base Apparel's new fashion store by adding your email below. Be the first to know about our launch deals and announcements.">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <body>
+        <main>
+            <div class="container">
+                <div class="logo">
+                    <img class="logo" src="images/logo.svg" alt="logo">
+                </div>
+                <div class="hero">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/hero-desktop.jpg">
+                        <source media="(min-width: 320px)" srcset="images/hero-mobile.jpg">
+                        <img src="images/hero-mobile.jpg" alt="Hero Image">
+                    </picture>
+                </div>
+                <div class="content">
+                    <img class="logo__desktop" src="images/logo.svg" alt="logo">
+                    <div class="contents">
+                        <h1 class="content__title"><span> We're</span>coming <span>soon</span> </h1>
+                        <p class="content__text"> Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+                        <form id="myForm" action="/">
+                            <div class="email__container">
+                                <input class="email__input" type="text" id="email" placeholder="Email Address">
+                                <button aria-label="Subscribe" type="submit"><img src="images/icon-arrow.svg" alt=""></button>
+                            </div>
+                            <div id="error__container"></div>
+                        </form>
+                    </div>
+                </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+
+</html>
