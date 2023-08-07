@@ -8,7 +8,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-defThcOUEZ](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-defThcOUEZ)
 - Live Site URL: [https://yosrajalali.github.io/Base-Apparel-coming-soon-page/](https://yosrajalali.github.io/Base-Apparel-coming-soon-page/)
 
 ## Table of contents
